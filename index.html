@@ -414,7 +414,8 @@
       <div class="form-group">
           <label class="control-label" for="kanbanKey">Kanban key:</label>
           <div>
-            <input type="text" name="kanbanKey" id="kanbanKey" ng-model="model.kanbanKey" required class="kanbanKey form-control" placeholder="Cloud Kanban key" value="ae5b7993-83ac-48ce-afa4-e30c355003fd" valid-key />
+			<span>COPY ME!!!</span><br /><p>ae5b7993-83ac-48ce-afa4-e30c355003fd</p>
+            <input type="text" name="kanbanKey" id="kanbanKey" ng-model="model.kanbanKey" required class="kanbanKey form-control" placeholder="Cloud Kanban key" />
             <span class="text-danger" ng-show="cloudSettings.kanbanKey.$error.validKey">Provided key is invalid</span>
             <span class="text-danger" ng-show="cloudSettings.kanbanKey.$error.validKeyUnableToVerify">Unable to validate key. You might not be connected to the Internet or Network or unable to access <a href="http://my-personal-kanban.appspot.com" target="blank" ng-hide="model.useLocalCloud">http://my-personal-kanban.appspot.com</a> <a href="model.localCloudUrl">{{model.localCloudUrl}}</a></span>
 
