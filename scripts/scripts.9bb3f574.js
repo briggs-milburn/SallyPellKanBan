@@ -1685,6 +1685,7 @@ var SetupCloudController = ["$scope", "cloudService", function (a, b) {
                     localCloudUrl: a.model.localCloudUrl
                 };
                 b.saveSettings(c),
+				a.cloudMenu.download(),
                 a.showCloudSetup = !1
             }
         }
