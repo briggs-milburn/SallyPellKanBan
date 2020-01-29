@@ -1680,7 +1680,7 @@ var SetupCloudController = ["$scope", "cloudService", function (a, b) {
             if (void 0 != a.model.kanbanKey && 0 != a.model.kanbanKey.length) {
                 var c = {
                     kanbanKey: a.model.kanbanKey,
-                    encryptionKey: a.model.encryptionKey,
+                    encryptionKey: 'wtgn5557',
                     useLocalCloud: a.model.useLocalCloud,
                     localCloudUrl: a.model.localCloudUrl
                 };
